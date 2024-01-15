@@ -1,0 +1,2 @@
+16:11:31 =>[error] first log message
+16:11:31 =>[error] /home/tyb/code/MPRPC/example/callee/userservice.cc:main:77

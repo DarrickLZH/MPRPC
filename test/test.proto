@@ -1,0 +1,23 @@
+syntax = "proto3"; // 声明了protobuf的版本
+
+package lzh; 
+
+message ResultCode
+{
+    int32 errcode = 1;
+    string errmsg = 2;
+}
+
+// 定义登录消息类型
+message LoginRequest
+{
+    string name = 1;
+    string pwd = 2;
+}
+
+// 定义登录响应消息类型
+message LoginResponse
+{
+    ResultCode result = 1;
+    bool success = 2;
+}
